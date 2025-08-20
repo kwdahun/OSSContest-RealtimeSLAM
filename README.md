@@ -1,5 +1,7 @@
 # ED-SLAM: Enhanced Depth SLAM with RGB-D Sensors
 
+*[한국어 버전 보기 (Korean Version)](README_ko.md)*
+
 ## Overview
 
 ED-SLAM (Enhanced Depth SLAM) is a computer vision project that addresses the computational limitations of creating dense 3D maps from RGB image pairs. Instead of relying solely on stereo matching from RGB cameras, this project leverages RGB-D sensors (specifically Intel RealSense D435i) to efficiently generate accurate 3D maps using ORB feature matching for pose estimation.
@@ -156,12 +158,3 @@ This project follows a modular design philosophy. When contributing:
 2. Include comprehensive documentation
 3. Add visualization capabilities where appropriate
 4. Ensure compatibility with RealSense D435i
-
-## License
-
-[Add your license information here]
-
-## Citation
-
-If you use this work in your research, please cite:
-[Add citation information when available]
