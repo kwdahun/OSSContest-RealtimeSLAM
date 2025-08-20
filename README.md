@@ -94,6 +94,14 @@ R, t, points_3d, scale = estimate_absolute_pose_realsense(
 )
 ```
 
+## Results
+
+The ED-SLAM system successfully demonstrates accurate camera pose estimation and 3D map reconstruction using RGB-D sensors:
+
+![Reconstructed Map and Camera Movement](readme_images/reconstructed_map_and_camera_movement.png)
+
+The visualization shows reconstructed 3D feature points and camera movement trajectory indicated by an arrow.
+
 ## Technical Approach
 
 ### Enhanced Motion Estimation

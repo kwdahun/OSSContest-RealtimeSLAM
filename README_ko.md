@@ -94,6 +94,14 @@ R, t, points_3d, scale = estimate_absolute_pose_realsense(
 )
 ```
 
+## 결과
+
+ED-SLAM 시스템은 RGB-D 센서를 사용하여 정확한 카메라 자세 추정과 3D 맵 재구성을 성공적으로 보여줍니다:
+
+![재구성된 맵과 카메라 움직임](readme_images/reconstructed_map_and_camera_movement.png)
+
+시각화는 재구성된 3D 특징점들과 화살표로 표시된 카메라 움직임 궤적을 보여줍니다.
+
 ## 기술적 접근법
 
 ### 향상된 움직임 추정
